@@ -1,6 +1,14 @@
+Note
+-------
+
+This is a forked version from [sequential-imagenet-dataloader][origin].
+
+Only some formatting is done currently from the original version.
+
+[origin]: https://github.com/BayesWatch/sequential-imagenet-dataloader
 
 A plug-in ImageNet DataLoader for PyTorch. Uses Tensorpack DataFlow's
-[sequential loading][seq] to load fast even if you're using a HDD. 
+[sequential loading][seq] to load fast even if you're using a HDD.
 
 [seq]: http://tensorpack.readthedocs.io/en/latest/tutorial/efficient-dataflow.html#sequential-read
 
@@ -118,7 +126,7 @@ using 4 workers.
 Comparing estimated hours to completion, each with 4 threads dedicated to
 workers loading the dataset:
 
-* Shared SSD NFS: 
+* Shared SSD NFS:
     * Loading from folders of images: 85 hours
 * HDD:
     * Loading from folders of images: 670 hours
