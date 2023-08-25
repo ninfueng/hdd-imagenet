@@ -2,8 +2,7 @@ Note
 -------
 
 This is a forked version from [sequential-imagenet-dataloader][origin].
-
-Only some formatting is done currently from the original version.
+Only the code formatting is done currently from the original version.
 
 [origin]: https://github.com/BayesWatch/sequential-imagenet-dataloader
 
